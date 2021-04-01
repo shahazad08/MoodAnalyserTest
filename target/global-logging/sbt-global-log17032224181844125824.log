@@ -11,85 +11,85 @@
 [debug] > Exec(onFailure loadFailed, None, None)
 [debug] > Exec(loadp, None, None)
 [info] welcome to sbt 1.4.7 (Oracle Corporation Java 15)
-[debug]       Load.loadUnit: plugins took 680.5794ms
-[debug]       Load.loadUnit: defsScala took 0.6832ms
+[debug]       Load.loadUnit: plugins took 370.1949ms
+[debug]       Load.loadUnit: defsScala took 0.7822ms
 [debug] [Loading] Scanning directory C:\Users\Admin\.sbt\1.0\plugins
 [debug] [Loading] Found non-root projects 
 [debug] [Loading] Done in C:\Users\Admin\.sbt\1.0\plugins, returning: ()
 [debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
 [debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
-[debug] Plugins.deducer#function took 40.7552 ms
-[debug]           Load.resolveProject(global-plugins) took 452.7159ms
-[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Admin\.sbt\1.0\plugins, plugins: List(<none>))) took 842.3019ms
+[debug] Plugins.deducer#function took 40.1119 ms
+[debug]           Load.resolveProject(global-plugins) took 232.8551ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Admin\.sbt\1.0\plugins, plugins: List(<none>))) took 456.4445ms
 [debug] [Loading] Done in C:\Users\Admin\.sbt\1.0\plugins, returning: (global-plugins)
-[debug]       Load.loadUnit: loadedProjectsRaw took 904.9366ms
-[debug]       Load.loadUnit: cleanEvalClasses took 0.5639ms
-[debug]     Load.loadUnit(file:/C:/Users/Admin/.sbt/1.0/plugins/, ...) took 1609.3936ms
-[debug]   Load.apply: load took 26854.897ms
-[debug]   Load.apply: resolveProjects took 1828.6939ms
-[debug]   Load.apply: finalTransforms took 6570.2017ms
-[debug]   Load.apply: config.delegates took 9.8936ms
-[debug]   Load.apply: Def.make(settings)... took 105182.8206ms
-[debug]   Load.apply: structureIndex took 261.1197ms
-[debug]   Load.apply: mkStreams took 2.3133ms
+[debug]       Load.loadUnit: loadedProjectsRaw took 653.693ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3457ms
+[debug]     Load.loadUnit(file:/C:/Users/Admin/.sbt/1.0/plugins/, ...) took 1040.6438ms
+[debug]   Load.apply: load took 3556.0119ms
+[debug]   Load.apply: resolveProjects took 13.8738ms
+[debug]   Load.apply: finalTransforms took 544.1819ms
+[debug]   Load.apply: config.delegates took 11.3483ms
+[debug]   Load.apply: Def.make(settings)... took 53691.4616ms
+[debug]   Load.apply: structureIndex took 542.2185ms
+[debug]   Load.apply: mkStreams took 1.7247ms
 [info] loading global plugins from C:\Users\Admin\.sbt\1.0\plugins
 [debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
-[debug] Load.defaultLoad until apply took 178611.5749ms
-[debug]           Load.loadUnit: plugins took 181.1573ms
-[debug]           Load.loadUnit: defsScala took 0.0046ms
+[debug] Load.defaultLoad until apply took 82657.3542ms
+[debug]           Load.loadUnit: plugins took 49.884ms
+[debug]           Load.loadUnit: defsScala took 0.0044ms
 [debug] [Loading] Scanning directory E:\MoodAnalyserTest\project
-[debug]             Load.loadUnit: mkEval took 138.7803ms
+[debug]             Load.loadUnit: mkEval took 18.1958ms
 [debug] [Loading] Found non-root projects 
 [debug] [Loading] Done in E:\MoodAnalyserTest\project, returning: ()
 [debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
 [debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
-[debug] Plugins.deducer#function took 2.694 ms
+[debug] Plugins.deducer#function took 4.6137 ms
 [info] loading settings for project moodanalysertest-build from idea1.sbt ...
-[debug]               Load.resolveProject(moodanalysertest-build) took 3.282ms
-[debug]             Load.loadTransitive: finalizeProject(Project(id moodanalysertest-build, base: E:\MoodAnalyserTest\project, plugins: List(<none>))) took 6.6474ms
+[debug]               Load.resolveProject(moodanalysertest-build) took 5.5277ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id moodanalysertest-build, base: E:\MoodAnalyserTest\project, plugins: List(<none>))) took 10.902ms
 [debug] [Loading] Done in E:\MoodAnalyserTest\project, returning: (moodanalysertest-build)
-[debug]           Load.loadUnit: loadedProjectsRaw took 1086.7182ms
-[debug]           Load.loadUnit: cleanEvalClasses took 27.8983ms
-[debug]         Load.loadUnit(file:/E:/MoodAnalyserTest/project/, ...) took 1297.1558ms
-[debug]       Load.apply: load took 1299.5785ms
-[debug]       Load.apply: resolveProjects took 0.1747ms
-[debug]       Load.apply: finalTransforms took 17.6149ms
-[debug]       Load.apply: config.delegates took 0.6958ms
-[debug]       Load.apply: Def.make(settings)... took 226.4362ms
-[debug]       Load.apply: structureIndex took 78.7537ms
-[debug]       Load.apply: mkStreams took 0.0028ms
+[debug]           Load.loadUnit: loadedProjectsRaw took 405.867ms
+[debug]           Load.loadUnit: cleanEvalClasses took 22.9058ms
+[debug]         Load.loadUnit(file:/E:/MoodAnalyserTest/project/, ...) took 480.9959ms
+[debug]       Load.apply: load took 484.3078ms
+[debug]       Load.apply: resolveProjects took 0.435ms
+[debug]       Load.apply: finalTransforms took 65.9946ms
+[debug]       Load.apply: config.delegates took 0.8004ms
+[debug]       Load.apply: Def.make(settings)... took 416.8079ms
+[debug]       Load.apply: structureIndex took 142.7303ms
+[debug]       Load.apply: mkStreams took 0.0039ms
 [info] loading project definition from E:\MoodAnalyserTest\project
 [debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
-[debug]     Load.loadUnit: plugins took 5309.4643ms
-[debug]     Load.loadUnit: defsScala took 0.0052ms
+[debug]     Load.loadUnit: plugins took 3362.9328ms
+[debug]     Load.loadUnit: defsScala took 0.006ms
 [debug] [Loading] Scanning directory E:\MoodAnalyserTest
-[debug]       Load.loadUnit: mkEval took 0.3823ms
+[debug]       Load.loadUnit: mkEval took 0.2707ms
 [debug] [Loading] Found non-root projects 
 [debug] [Loading] Done in E:\MoodAnalyserTest, returning: ()
 [debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
 [debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
-[debug] Plugins.deducer#function took 3.7225 ms
+[debug] Plugins.deducer#function took 6.5744 ms
 [info] loading settings for project moodanalysertest from build.sbt ...
-[debug]         Load.resolveProject(moodanalysertest) took 33.016ms
-[debug]       Load.loadTransitive: finalizeProject(Project(id moodanalysertest, base: E:\MoodAnalyserTest, plugins: List(<none>))) took 38.1708ms
+[debug]         Load.resolveProject(moodanalysertest) took 54.0514ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id moodanalysertest, base: E:\MoodAnalyserTest, plugins: List(<none>))) took 62.9917ms
 [debug] [Loading] Done in E:\MoodAnalyserTest, returning: (moodanalysertest)
-[debug]     Load.loadUnit: loadedProjectsRaw took 434.7308ms
-[debug]     Load.loadUnit: cleanEvalClasses took 174.2328ms
-[debug]   Load.loadUnit(file:/E:/MoodAnalyserTest/, ...) took 5919.7179ms
-[debug] Load.apply: load took 5922.473ms
-[debug] Load.apply: resolveProjects took 0.1635ms
-[debug] Load.apply: finalTransforms took 38.1504ms
-[debug] Load.apply: config.delegates took 0.5168ms
-[debug] Load.apply: Def.make(settings)... took 132.2272ms
-[debug] Load.apply: structureIndex took 51.1265ms
-[debug] Load.apply: mkStreams took 0.0027ms
+[debug]     Load.loadUnit: loadedProjectsRaw took 448.2432ms
+[debug]     Load.loadUnit: cleanEvalClasses took 14.2411ms
+[debug]   Load.loadUnit(file:/E:/MoodAnalyserTest/, ...) took 3826.6712ms
+[debug] Load.apply: load took 3833.9786ms
+[debug] Load.apply: resolveProjects took 0.2389ms
+[debug] Load.apply: finalTransforms took 50.5298ms
+[debug] Load.apply: config.delegates took 1.0079ms
+[debug] Load.apply: Def.make(settings)... took 210.5729ms
+[debug] Load.apply: structureIndex took 52.7629ms
+[debug] Load.apply: mkStreams took 0.0043ms
 [info] set current project to MoodAnalyserTest (in build file:/E:/MoodAnalyserTest/)
 [debug] > Exec(sbtPopOnFailure, None, None)
 [debug] > Exec(resumeFromFailure, None, None)
 [debug] > Exec(notifyUsersAboutShell, None, None)
 [debug] > Exec(iflast shell, None, None)
-[debug] > Exec(; set ideaPort in Global := 49546 ; idea-shell, None, None)
-[debug] > Exec(set ideaPort in Global := 49546, None, None)
+[debug] > Exec(; set ideaPort in Global := 52386 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 52386, None, None)
 [info] Defining Global / ideaPort
 [info] The new value will be used by Compile / compile, Test / compile
 [debug] Defining 

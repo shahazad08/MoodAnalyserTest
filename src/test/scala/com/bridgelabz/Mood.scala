@@ -15,7 +15,16 @@ class MoodTest extends AnyFunSuite  {
     val moodAnalyzer = new MoodAnalyzerClass(null)
     val exception = intercept[MoodAnalyzerException]{
       moodAnalyzer.analyzeMood()
+      System.out.println("Printing Analyse Mood",moodAnalyzer.analyzeMood())
     }
     assert( exception.getMessage === TypeException.NullType.toString)
+  }
+
+  test("givenEmptyMessageShouldReturnException"){
+    val moodAnalyzer = new MoodAnalyzerClass("")
+    val exception = intercept[MoodAnalyzerException]{
+      moodAnalyzer.analyzeMood()
+    }
+    assert(exception.getMessage === TypeException.EmptyType.toString)
   }
 }
